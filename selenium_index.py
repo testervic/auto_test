@@ -30,7 +30,7 @@ if __name__ == '__main__':
         runner.run(suite)
 
     #邮件发送
-    email_config['receiver'] = 'liuxu@guxiansheng.cn'
+    email_config['receiver'] = 'zhongwei@guxiansheng.cn'
     email_config['attachment'] = [report_file_path]
     email_config['mail_body'] = 'CRM权限管理自动化测试报告'
     send_email_report(email_config)
